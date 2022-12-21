@@ -3229,23 +3229,3 @@ function withdraw() external nonReentrant{...}
 
 
 
-
-
-
-
-然后就是wtf上的章节，值得重新看。可以整理笔记方便快速翻阅。
-
-然后github上的项目源码，或者那个uniswap的项目源码。
-
-同时前端搞起来，必须搞起来。ether.js web3.js  react
-
-找工作。
-
-
-
-学完该教程后，就该上手项目熟练语法了，加油呀
-
-
-
-
-
