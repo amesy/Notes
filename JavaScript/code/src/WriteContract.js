@@ -1,12 +1,10 @@
 import { ethers } from "ethers";
 
 // 利用Alchemy的rpc节点连接以太坊网络
-const ALCHEMY_GOERLI_URL = 'https://eth-goerli.g.alchemy.com/v2/04ffI48s4boBrefmL8aGg7p_aAPuqhNk';
+const ALCHEMY_GOERLI_URL = 'https://eth-goerli.g.alchemy.com/v2/Alchemy_API_KEY';
 
 // 连接Goerli测试网
 const provider = new ethers.providers.JsonRpcProvider(ALCHEMY_GOERLI_URL);
-
-// 不可泄露！！！：我的钱包私钥: 18bf3877f09b766bdaeaec42efffc07c33e86b0639dc351ba5e899dda8c65410
 
 // 利用私钥和provider创建wallet对象
 // 私钥查询：metamask钱包 -> 账户详情 -> 导出私钥
