@@ -1,8 +1,7 @@
 import { ethers } from "ethers";
 
 // 利用Alchemy的rpc节点连接以太坊网络
-const ALCHEMY_MAINNET_URL = 'https://eth-mainnet.g.alchemy.com/v2/Alchemy_API_KE
-Y';
+const ALCHEMY_MAINNET_URL = 'https://eth-mainnet.g.alchemy.com/v2/Alchemy_API_KEY';
 
 // 连接MAINNET主网
 const provider = new ethers.providers.JsonRpcProvider(ALCHEMY_MAINNET_URL);
